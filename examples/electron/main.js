@@ -19,7 +19,7 @@ const windows = [];
 
 function createWindow() {
     const width = 600;
-    const height = 600;
+    const height = 1200;
     const w = new BrowserWindow({
         width,
         height,
@@ -70,7 +70,7 @@ app.on('ready', async function () {
     // });
 
     createWindow();
-    createWindow();
+    //createWindow(); //uncomment to start a second window
 });
 
 app.on('window-all-closed', function () {
